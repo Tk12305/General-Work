@@ -4,4 +4,4 @@ try:
 except ZeroDivisionError:
     print("Cannot divide by zero!")
 except ValueError:
-    print("Invalid inpu!")
+    print("Invalid input!")

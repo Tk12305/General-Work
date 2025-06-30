@@ -1,5 +1,6 @@
 import random
-# This script generates a random integer between 1 and 1000
+# This script generates a random integer between 1 and 32768000
+# The range is doubled each time, starting from 1 to 32768000
 print(random.randint(1, 1000))
 print(random.randint(1, 2000))
 print(random.randint(1, 4000))

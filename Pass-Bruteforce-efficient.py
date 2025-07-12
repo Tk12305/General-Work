@@ -2,7 +2,7 @@ import itertools
 import string
 import time
 
-def brute_force_crack(target_password, max_length=4, verbose=False):
+def brute_force_crack(target_password, max_length=8, verbose=False):
     characters = string.ascii_lowercase + string.digits
     attempts = 0
     start_time = time.time()
@@ -27,5 +27,5 @@ def brute_force_crack(target_password, max_length=4, verbose=False):
 
 # Entry point
 if __name__ == "__main__":
-    password_to_crack = "1234"  # Up to 4 characters
-    brute_force_crack(password_to_crack, max_length=4, verbose=False)
+    password_to_crack = "1234"  # Up to 8 characters
+    brute_force_crack(password_to_crack, max_length=8, verbose=False)

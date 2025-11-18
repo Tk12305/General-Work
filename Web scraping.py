@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://www.airbus.com/en"
+url = "https://www.github.com/trending"
 response = requests.get(url)
 soup = BeautifulSoup(response.text, "html.parser")
 

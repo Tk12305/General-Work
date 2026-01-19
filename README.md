@@ -1,1 +1,4 @@
-# school-work
+- 👋 Hi, I’m @Tk12305
+- 👀 I’m interested in python
+- 🌱 I’m currently developing my python knowleadge
+- 📫 How to reach me tbgglking@gmail.com
